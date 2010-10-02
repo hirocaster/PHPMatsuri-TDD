@@ -1,5 +1,15 @@
 <?php
 
-require 'lime.php'
+class fizzbuzz 
+{
+
+  function fizzbuzz()
+  {
+    return "fizzbuzz";
+    
+  }
+  
+}
 
 ?>
+
