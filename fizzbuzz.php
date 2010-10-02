@@ -1,15 +1,4 @@
 <?php
-
-class fizzbuzz 
-{
-
-  function fizzbuzz()
-  {
-    return "fizzbuzz";
-    
-  }
-  
-}
-
+class fizzbuzz
+{}
 ?>
-
