@@ -2,9 +2,9 @@
 require_once 'fizzbuzz.php';
 require_once 'lime.php';
 
-$test = new lime_test(null,new lime_output_color(true));
+$test = new lime_test(1,new lime_output_color(true));
 
-$fuzzbuzz = new fizzbuzz();
-$test->ok('initial ok');
+$fizzbuzz = new fizzbuzz();
+$test->is($fizzbuzz->say(2), 2,'2のとき2');
 
 ?>
